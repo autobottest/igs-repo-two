@@ -11,4 +11,5 @@ app.post("/fakeLogin", function (req, res) {
   sequelize.query(
     "SELECT * FROM Products WHERE name LIKE " + req.body.username
   );
+  res.write(req.body.xss)
 });
