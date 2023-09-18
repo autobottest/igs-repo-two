@@ -1,0 +1,14 @@
+{
+  "name": "igs-repo-two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Isotopes-GitHub-Security/igs-repo-two.git",
+  "author": "Matthew Jordan <mjordan@atlassian.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "qs": "6.10.0",
+    "steal": "2.3.0",
+    "vm2": "3.9.16"
+  }
+}
