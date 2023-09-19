@@ -1159,10 +1159,10 @@ punycode@~2.0.1:
   resolved "https://packages.atlassian.com/api/npm/npm-remote/punycode/-/punycode-2.0.1.tgz#3f142fd8e6ef4e9ce24acbf7ba869ff9b00d2c2b"
   integrity sha512-xFK4f2VCQ/FaO3X3Xq5V+d/Cw+kiZAUqoMkp1khOkmrky+sFhgBJn5Pn3Jp57st0qyAmUaWGDxVxiDBnHoj93w==
 
-qs@6.10.0:
-  version "6.10.0"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/qs/-/qs-6.10.0.tgz#8b6519121ab291c316a3e4d49cecf6d13d8c7fe5"
-  integrity sha512-yjACOWijC6L/kmPZZAsVBNY2zfHSIbpdpL977quseu56/8BZ2LoF5axK2bGhbzhVKt7V9xgWTtpyLbxwIoER0Q==
+qs@6.10.3:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.3.tgz#d6cde1b2ffca87b5aa57889816c5f81535e22e8e"
+  integrity sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ==
   dependencies:
     side-channel "^1.0.4"
 
