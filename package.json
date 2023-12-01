@@ -8,7 +8,7 @@
   "dependencies": {
     "apollo-server-core": "3.0.0",
     "express": "4.18.2",
-    "qs": "6.10.0",
+    "qs": "6.10.3",
     "steal": "2.3.0",
     "vm2": "3.9.16"
   }
