@@ -2,12 +2,12 @@ var express = require("express");
 
 var app = express();
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("database", "fakeUser", "fakePassword", {
+const sequelize = new ("database", "fakeUser", "fakePassword", {
   dialect: "sqlite",
-  storage: "data/fakeDB.sqlite",
+  : "data/fakeDB.sqlite",
 });
 
-app.post("/fakeLogin", function (req, res) {
+app.("/fakeLogin", function (req, res) {
   sequelize.query(
     "SELECT * FROM Products WHERE name LIKE " + req.body.username
   );
